@@ -32,9 +32,9 @@ Write-Host "1. Go to https://railway.app" -ForegroundColor Cyan
 Write-Host "2. Check your project deployment" -ForegroundColor Cyan
 Write-Host "3. Add environment variables:" -ForegroundColor Cyan
 Write-Host "   - NODE_ENV=production" -ForegroundColor White
-Write-Host "   - GOOGLE_CLIENT_ID=43715775108-ta5ebfegl6n6h0h0ahau061hhd6un2dn.apps.googleusercontent.com" -ForegroundColor White
-Write-Host "   - GOOGLE_CLIENT_SECRET=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" -ForegroundColor White
-Write-Host "   - JWT_SECRET=010bf8b5e9d753c2696c514482d3b171525f0dc5af6af198dbf3d907f50087168fdb589f9d55164e856f32683ad6b75ce48ae9c817e5c9779f9aa9c248e3971a" -ForegroundColor White
+Write-Host "   - GOOGLE_CLIENT_ID=[YOUR_GOOGLE_CLIENT_ID]" -ForegroundColor White
+Write-Host "   - GOOGLE_CLIENT_SECRET=[YOUR_GOOGLE_CLIENT_SECRET]" -ForegroundColor White
+Write-Host "   - JWT_SECRET=[YOUR_JWT_SECRET]" -ForegroundColor White
 Write-Host "   - CLIENT_URL=https://database.railway.app" -ForegroundColor White
 Write-Host ""
 Write-Host "🌐 Your app will be available at: https://database.railway.app" -ForegroundColor Green

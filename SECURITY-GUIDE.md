@@ -6,9 +6,9 @@ Your Google OAuth credentials and JWT secret have been successfully regenerated 
 
 ## 🔐 Your New Secure Credentials
 
-**Google Client ID**: `43715775108-ta5ebfegl6n6h0h0ahau061hhd6un2dn.apps.googleusercontent.com`  
-**Google Client Secret**: `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`  
-**JWT Secret**: `010bf8b5e9d753c2696c514482d3b171525f0dc5af6af198dbf3d907f50087168fdb589f9d55164e856f32683ad6b75ce48ae9c817e5c9779f9aa9c248e3971a`
+**Google Client ID**: `[YOUR_NEW_GOOGLE_CLIENT_ID]`  
+**Google Client Secret**: `[YOUR_NEW_GOOGLE_CLIENT_SECRET]`  
+**JWT Secret**: `[YOUR_NEW_JWT_SECRET]`
 
 ## 🔧 Update Railway Environment Variables
 
@@ -16,9 +16,9 @@ Your Google OAuth credentials and JWT secret have been successfully regenerated 
 2. **Select your project**
 3. **Go to Variables tab**
 4. **Update these variables**:
-   - `GOOGLE_CLIENT_ID` = `43715775108-ta5ebfegl6n6h0h0ahau061hhd6un2dn.apps.googleusercontent.com`
-   - `GOOGLE_CLIENT_SECRET` = `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`
-   - `JWT_SECRET` = `010bf8b5e9d753c2696c514482d3b171525f0dc5af6af198dbf3d907f50087168fdb589f9d55164e856f32683ad6b75ce48ae9c817e5c9779f9aa9c248e3971a`
+   - `GOOGLE_CLIENT_ID` = [Your new Google Client ID]
+   - `GOOGLE_CLIENT_SECRET` = [Your new Google Client Secret]
+   - `JWT_SECRET` = [Your new JWT secret]
 
 ## ✅ COMPLETED ACTIONS
 
@@ -49,9 +49,9 @@ CLIENT_URL=http://localhost:3000
 
 # Production (Railway environment variables)
 NODE_ENV=production
-GOOGLE_CLIENT_ID=43715775108-ta5ebfegl6n6h0h0ahau061hhd6un2dn.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET=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
-JWT_SECRET=010bf8b5e9d753c2696c514482d3b171525f0dc5af6af198dbf3d907f50087168fdb589f9d55164e856f32683ad6b75ce48ae9c817e5c9779f9aa9c248e3971a
+GOOGLE_CLIENT_ID=[YOUR_PRODUCTION_GOOGLE_CLIENT_ID]
+GOOGLE_CLIENT_SECRET=[YOUR_PRODUCTION_GOOGLE_CLIENT_SECRET]
+JWT_SECRET=[YOUR_PRODUCTION_JWT_SECRET]
 CLIENT_URL=https://database.railway.app
 ```
 
