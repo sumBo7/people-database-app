@@ -29,9 +29,9 @@ In Railway dashboard, go to your project → Variables tab and add:
 
 ```
 NODE_ENV=production
-GOOGLE_CLIENT_ID=43715775108-jaste83141bb49qd7b02mbruldvsjn5b.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-JWT_SECRET=your_secure_jwt_secret_here
+GOOGLE_CLIENT_ID=[YOUR_GOOGLE_CLIENT_ID]
+GOOGLE_CLIENT_SECRET=[YOUR_GOOGLE_CLIENT_SECRET]
+JWT_SECRET=[YOUR_SECURE_JWT_SECRET]
 CLIENT_URL=https://your-app-name.railway.app
 ```
 

@@ -58,9 +58,9 @@ Write-Host "📋 Environment Variables to add in Railway:" -ForegroundColor Yell
 Write-Host "=============================================" -ForegroundColor Yellow
 Write-Host ""
 Write-Host "NODE_ENV=production" -ForegroundColor White
-Write-Host "GOOGLE_CLIENT_ID=43715775108-jaste83141bb49qd7b02mbruldvsjn5b.apps.googleusercontent.com" -ForegroundColor White
-Write-Host "GOOGLE_CLIENT_SECRET=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" -ForegroundColor White
-Write-Host "JWT_SECRET=559e8c58b87a8f8ef3ff77364658dc1d65c33f30ac5de4e2dd7700aa7dab75cd6394308266836838f9013492b6c0c7105ca348416d98" -ForegroundColor White
+Write-Host "GOOGLE_CLIENT_ID=[YOUR_NEW_GOOGLE_CLIENT_ID]" -ForegroundColor White
+Write-Host "GOOGLE_CLIENT_SECRET=[YOUR_NEW_GOOGLE_CLIENT_SECRET]" -ForegroundColor White
+Write-Host "JWT_SECRET=[YOUR_NEW_JWT_SECRET]" -ForegroundColor White
 Write-Host "CLIENT_URL=https://$railwayDomain" -ForegroundColor White
 Write-Host ""
 Write-Host "🌐 Your app will be available at: https://$railwayDomain" -ForegroundColor Green
